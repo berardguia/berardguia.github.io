@@ -1,0 +1,80 @@
+@font-face{
+    font-family: "Martian";
+    src:url(MartianMonoSemiCondensed-Regular.woff2) format("woff2");
+    font-weight: 400;
+}
+
+body {
+    font-family: "Martian", monospace;
+    color: white;
+    background-color: black;
+    line-height: 1.5;
+    margin: 16px;
+}
+
+h1,
+h2 {
+    font-size: 2em;
+    display: inline-block;
+    font-weight: 400;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+p {
+    max-width: 560px;
+}
+
+nav a {
+    background: white;
+    color: black;
+    padding: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+nav {
+    display: grid;
+    gap: 16px;
+    justify-items: start;
+}
+
+nav a {
+
+    text-decoration: none;
+
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.slash {
+    color: white;
+    font-weight: 100;
+    font-size: 2em;
+    margin: 0 16px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cover{
+    display: block;
+    margin: auto;
+}
